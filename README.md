@@ -1,50 +1,3 @@
-<a href="https://www.reactnativeschool.com/react-native-fundamentals-workshop/" target="_blank">
-  <img src="./assets/header.png" alt="React Native Fundamentals" />
-</div>
-
-# React Native Fundamentals
-
-This [self-guided workshop](https://www.reactnativeschool.com/react-native-fundamentals-workshop/) aims to get you up and running with React Native and understand the fundamentals.
-
-Prepared by [React Native School](https://www.reactnativeschool.com/).
-
-## Helpful Links
-
-If at any point you feel lost or like you're missing "something" outside of the scope of the lessons please check out these articles to help fill any gaps.
-
-Each lesson also provides links to further your knowledge on the topic at hand.
-
-- [JavaScript Essentials](https://www.reactnativeschool.com/javascript-essentials)
-- [A Brief Overview of ES6 for React Native Developers](https://www.reactnativeschool.com/a-brief-overview-of-es6-for-react-native-developers)
-- [JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html)
-
-## System Setup
-
-We'll be leveraging [Expo](https://expo.io/) in this workshop. It makes React Native development very easy to get started with (it also provides a great way to build large React Native apps as well).
-
-Follow the [Expo installation documentation](https://expo.io/learn) for your machine. Once complete, you should have Expo installed on your computer and the app installed on your phone.
-
-You'll also want to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-
-Once complete the following tools should be available on your system.
-
-- Node
-- npm
-- Git
-- Expo
-
-You can check installation by running the following commands:
-
-```
-node --version
-npm --version
-git --version
-expo --version
-```
-
-## Project Setup
-
-From the command line, run the following commands.
 
 ```
 git clone https://github.com/ReactNativeSchool/react-native-fundamentals.git
@@ -56,16 +9,7 @@ npm install
 
 With the project installed you can start the project by running `npm start`.
 
-This will output a QR code in your terminal which you can scan from the Expo app (Android) or the Camera app (iOS).
 
-- [Expo iOS App](https://itunes.apple.com/app/apple-store/id982107779)
-- [Expo Android App](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
-
-Once that is complete shake your device (yes, physically shake it) at which point a menu should pop up.
-
-Make sure that Fast Refresh is enabled.
-
-With this complete the app will now refresh with the latest code any time you save a file.
 
 ## Exercises
 
@@ -92,4 +36,4 @@ You can find solutions for each exercise in the `solutions` folder (they use the
 
 This workshop (concept and structure) is heavily inspired by Kent C. Dodds' [React Fundamentals](https://github.com/kentcdodds/react-fundamentals) workshop. Thank you for putting it together and sharing it publicly.
 
-[Kent's React Fundamentals Workshop](https://kentcdodds.com/workshops/react-fundamentals)
+
