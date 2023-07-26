@@ -1,9 +1,33 @@
-// Capturing User Taps
+import { TouchableOpacity, Text, Button } from "react-native";
 
-// TIP: Button is a component exposed by React Native. You'll import it the same way you did View
-// and Text previously.
-
-export default () => {
-  // Replace return null with your code.
-  return null;
+const App = () => {
+  return (
+    <>
+      <Button
+        title="Button 1"
+        onPress={() => alert("hello 1")}
+        style={{
+          backgroundColor: "blue",
+          alignItems: "center",
+          justifyContent: "center",
+          paddingTop: 3,
+          paddingBottom: 3,
+          color: "#fff",
+        }}
+      />
+      <TouchableOpacity
+        onPress={() => alert("hello 1")}
+        style={{
+          backgroundColor: "blue",
+          alignSelf: "center",
+          justifyContent: "center",
+          padding: 3,
+        }}
+      >
+        <Text style={{ color: "#fff" }}>Button</Text>
+      </TouchableOpacity>
+    </>
+  );
 };
+
+export default App;
